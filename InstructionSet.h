@@ -6,6 +6,9 @@
 // Uses the __cpuid intrinsic to get information about
 // CPU extended instruction set support.
 
+// cmd get by 
+// > wmic cpu get processorid
+
 #include <iostream>
 #include <vector>
 #include <bitset>
